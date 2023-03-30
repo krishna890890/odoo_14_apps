@@ -10,7 +10,7 @@
                 Car repair services 
     """,
 
-    'author':"Sujeet",
+    'author':"Redian Software pvt.ltd",
     'website': "http://www.rediansoftware.com",
 
     # Categories can be used to filter modules in modules listing
