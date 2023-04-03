@@ -24,8 +24,8 @@
 
     # always loaded
     'license': 'LGPL-3',
-    'currency': 'EUR',
-    'price': '10.0',
+    'currency': 'USD',
+    'price': '1.0',
     'category': 'Point Of Sale',
     'data': [
          'security/ir.model.access.csv',
