@@ -2,22 +2,20 @@
 {
     'name': "Car Repair Workshop",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """Fleet Repair Vehical Repair car maintenance Auto fleet service repair car
+        """,
 
     'description': """
-                Car repair services 
+                Car repair services V14.0
     """,
 
     'author':"Redian Software pvt.ltd",
     'website': "http://www.rediansoftware.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
     'category': 'Extra Tools',
     'version': '0.1',
+    'support': 'krishna.y@rediansoftware.com',
+    'version': '14.0.1.0.1',
+    'images': ['static/description/car_repair.jpg'],
 
     # any module necessary for this one to work correctly
     'depends': ['base','sale_management','purchase','stock','fleet','account'],
@@ -26,7 +24,7 @@
     'license': 'LGPL-3',
     'currency': 'USD',
     'price': '1.0',
-    'category': 'Point Of Sale',
+    'category': 'Feet',
     'data': [
          'security/ir.model.access.csv',
         'security/security.xml',
