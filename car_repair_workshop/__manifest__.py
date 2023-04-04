@@ -15,7 +15,7 @@
     'version': '0.1',
     'support': 'krishna.y@rediansoftware.com',
     'version': '14.0.1.0.1',
-    'images': ['static/description/pos_15.jpg'],
+    
 
     # any module necessary for this one to work correctly
     'depends': ['base','sale_management','purchase','stock','fleet','account'],
@@ -39,8 +39,24 @@
         'wizard/update_technician.xml',
         'report/car_repair.xml'
     ],
+    'images': [
+        'static/description/banner.png'
+    ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'assets' : {
+        'point_of_sale.assets': [
+            'ks_pos_low_stock_alert/static/src/css/ks_low_stock.css',
+            'ks_pos_low_stock_alert/static/src/js/ks_utils.js',
+            'ks_pos_low_stock_alert/static/src/js/ks_low_stock.js',
+            'ks_pos_low_stock_alert/static/src/js/ks_product_list.js',
+            'ks_pos_low_stock_alert/static/src/js/ks_product_screen.js',
+            'ks_pos_low_stock_alert/static/src/js/ks_product_widget.js',
+        ],
+        'web.assets_qweb': [
+            'ks_pos_low_stock_alert/static/src/xml/**/*',
+        ]
+    }
 }
