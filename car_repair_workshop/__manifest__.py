@@ -15,7 +15,7 @@
     'version': '0.1',
     'support': 'krishna.y@rediansoftware.com',
     'version': '14.0.1.0.1',
-    'images': ['static/description/car_repair.png'],
+    'images': ['static/description/pos_15.jpg'],
 
     # any module necessary for this one to work correctly
     'depends': ['base','sale_management','purchase','stock','fleet','account'],
