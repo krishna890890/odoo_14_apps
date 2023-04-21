@@ -25,6 +25,9 @@
     'sequence':-111,
     'author':  "Redian Software pvt.ltd",
     'website': "https://www.rediansoftware.com/",
+    'license': 'LGPL-3',
+    'currency': 'USD',
+    'price': '15.0',
    
     'name': "Whatsapp Massage",
 
