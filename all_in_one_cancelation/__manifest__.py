@@ -15,6 +15,9 @@
     'images': [
         'static/description/cancel_order.png'
     ],
+    'license': 'LGPL-3',
+    'currency': 'USD',
+    'price': '50.0',
     "support": "palkeshav843@gmail.com",
     "license": "OPL-1",
     'installable': True,
