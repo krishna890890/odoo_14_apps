@@ -23,7 +23,7 @@
     # always loaded
     'license': 'LGPL-3',
     'currency': 'USD',
-    'price': '1.0',
+    'price': '25.0',
     'category': 'Feet',
     'data': [
          'security/ir.model.access.csv',
